@@ -127,6 +127,15 @@ function Server(options) {
   this.on = (key, callback) => {
     this.jobs[key] = callback;
   };
+
+  /**
+   * Load notifier to manage connection.
+   *
+   * @param  {Function} notifier
+   */
+  this.loadNotifier = (notifier) => {
+    notifier(this);
+  };
 }
 
 
