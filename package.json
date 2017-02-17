@@ -1,6 +1,6 @@
 {
   "name": "websocketizer-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Websocketizer server",
   "author": "Giuseppe Menti <mentifg@gmail.com>",
   "main": "./lib/index.js",
